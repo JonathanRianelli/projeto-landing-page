@@ -46,3 +46,16 @@ setaVoltar.addEventListener('click', function () {
 
     imagensPainel[imagemAtual].classList.add('mostrar')
 })
+
+const scrollReveal = ScrollReveal({
+  origin: 'top',
+  distance: '30px',
+  duration: 700,
+  reset: true
+})
+
+scrollReveal.reveal(
+  `#quem-somos .titulo, .texto, #contato, #logo, .redes-sociais, .copyright
+ `,
+  { interval: 100 }
+)
