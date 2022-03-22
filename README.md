@@ -14,4 +14,4 @@
 
 ## Layout 
 ### Desktop:
-<img src="src/imagens/demo.gif">
+<img src="src/imagens/projeto-landing-page.gif">
